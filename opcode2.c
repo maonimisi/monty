@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * hasOnlyDigits - checks if a string argument contains only digits
+ * _hasOnlyDigits - checks if a string argument contains only digits
  * @arg: string to check
  * Return: 0 if it contains only digits, else 1
  */

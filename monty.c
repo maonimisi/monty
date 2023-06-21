@@ -1,4 +1,5 @@
 #include "monty.h"
+interpreter_t var;
 /**
  * main - Entry point - interpreter for Monty ByteCodes files
  * @argc: number of arguments passed
