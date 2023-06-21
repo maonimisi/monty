@@ -52,13 +52,13 @@ typedef struct interpreter_s
 {
 	int is_stack_mode;
 	size_t stack_length;
-} interpreter_s;
+} interpreter_t;
 
 #define STACK 0
 #define QUEUE 1
 
 /* global struct to hold flag for queue and stack length */
-extern interpreter_s var;
+extern interpreter_t var;
 
 
 /*execute*/
@@ -85,4 +85,4 @@ void nop(stack_t **stack, unsigned int line_number);
 void push(stack_t **stack, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
 
-#endif
+#endif /* MONTY_H */
